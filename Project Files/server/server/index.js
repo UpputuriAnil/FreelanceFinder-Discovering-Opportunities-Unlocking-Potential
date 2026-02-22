@@ -251,20 +251,6 @@ mongoose.connect('mongodb://localhost:27017/Freelancing',{
             const user = await User.findById(application.freelancerId);
 
             application.status = 'Accepted';
-
-            await application.save();
-
-            const remainingApplications = await Application.find({projectId: application.projectId, status: "Pending"});
-
-            remainingApplications.map(async (appli)=>{
-                appli.status === 'Rejected';
-                await appli.save();
-            })
-
-            project.freelancerId = freelancer.userId;
-            project.freelancerName = user.email;
-            project.budget = application.bidAmount;
-
             project.status = "Assigned";
 
             freelancer.currentProjects.push(project._id);
@@ -363,7 +349,7 @@ mongoose.connect('mongodb://localhost:27017/Freelancing',{
 
             await project.save();
 
-            res.status(200).json({message: "submission approved"});
+            res.status(200).json({message: "submission rejected"});
         }catch(err){
             res.status(500).json({error: err.message});
         }
