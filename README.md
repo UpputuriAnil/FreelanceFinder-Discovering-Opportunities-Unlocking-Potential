@@ -73,7 +73,7 @@ Before you begin, ensure you have the following installed:
 
 ```bash
 # Clone the project from your repository
-git clone <repository-url>
+git clone https://github.com/UpputuriAnil/Freelance-Finder-Discovering-Opportunities-Unlocking-Potential.git
 
 # Navigate to the project directory
 cd FreelanceFinder-Discovering-Opportunities-Unlocking-Potential
@@ -288,8 +288,6 @@ npm install
 For production deployment, refer to the project documentation in `/Document/Mern Project Freelancer.pdf` for detailed deployment instructions.
 
 ---
-
-**FreelanceFinder** is a full-stack web application that serves as a bridge between freelancers and clients, providing a seamless experience for finding freelance jobs, managing projects, and fostering professional growth. The platform showcases the right opportunities and provides support for career development in the freelance world.
 
 ## 📋 Key Features
 
