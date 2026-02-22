@@ -31,7 +31,7 @@ const AllUsers = () => {
 
       <div className="all-users">
 
-        {users.map((user)=>(
+        {users.filter(user => user.username !== 'Manasvi1365').map((user)=>(
 
           <div className="user">
               <span>
