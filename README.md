@@ -9,8 +9,7 @@ A comprehensive MERN-based freelance platform designed to connect freelancers wi
 **University**: Mohan Babu University  
 **Roll Number**: 23102A010607  
 
-**Project Type**: Internship Project - MERN Stack Development  
-**Duration**: [Project Duration]  
+**Project Type**: Internship Project - MERN Stack Development   
 **Academic Year**: 2025-2026
 
 **FreelanceFinder** is a full-stack web application that serves as a bridge between freelancers and clients, providing a seamless experience for finding freelance jobs, managing projects, and fostering professional growth. The platform showcases the right opportunities and provides support for career development in the freelance world.
